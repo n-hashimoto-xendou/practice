@@ -1,0 +1,62 @@
+.modal_inner {
+  position: relative;
+}
+
+.to_do_input_wrap {
+  position:fixed;
+  bottom: 0px;
+  z-index: 3;
+  background-color: #f1f2f6;
+  width: 100%;
+  padding: 15px;
+}
+
+.input_title {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.input_content {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 3px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.register_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.register_btn button {
+  color: #ffffff;
+  background-color: #3C967E;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+  width: 150px;
+  border-radius: 3px;
+}
+
+.close_btn {
+  width: 5%;
+  position: absolute;
+  top: -10px;
+  right: -11px;
+}
+
+.close_btn img {
+  width: 100%;
+  height: auto;
+  animation: paused;
+}
+
+
